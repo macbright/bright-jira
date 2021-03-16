@@ -12,10 +12,11 @@ document.querySelector("#myInput").addEventListener("keydown", function(e) {
   }
 });
 
+
 //-------GETTING VALUES FROM INPUT TO ARRAY OF OBJECTS-------
 function addTodo() {
   const todoText = document.querySelector("#myInput").value;
-
+	
   if (todoText == "") {
     alert("You did not enter any item");
   } else {
@@ -24,6 +25,7 @@ function addTodo() {
       todoText: todoText,
       isDone: false,
     };
+		
 
     //---WITH UNSHIFT WE ADD THE NEW ELEMENT TO THE BEGINNING OF THE ARRAY
     //--SO THAT THE NEW ITEMS SHOW UP ON TOP
@@ -82,6 +84,7 @@ function displayTodos() {
       const delId = e.target.getAttribute("data-id");
       deleteItem(delId);
     });
+		
 
     todoListElement.appendChild(listElement);
     listElement.appendChild(delBtn);
