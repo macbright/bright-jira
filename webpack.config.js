@@ -15,11 +15,12 @@ module.exports = {
   },
 	devServer: {
 	 compress: true,
-   public: 'https://jira-cloud.herokuapp.com/',
+	 port:  port,
+   public: 'jira-cloud.herokuapp.com',
 	  allowedHosts: [
       '.amazonaws.com',  'jira-cloud.herokuapp.com'
   ],
-	 port:  port,
+	 
   },
 	// plugins: [new HtmlWebpackPlugin({
 	// 		template: './index.html'
