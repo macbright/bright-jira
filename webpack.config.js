@@ -9,7 +9,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
 	devServer: {
-    inline:true,
+    host:'0.0.0.0',
     port: 5000
   },
 	// plugins: [new HtmlWebpackPlugin({
