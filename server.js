@@ -1,15 +1,23 @@
-var path = require('path');
-var express = require('express');
+const express = require("express");
+var router = express.Router();
+const app = express();
+// var mongojs = require('mongojs');
 
-var app = express();
+const port = process.env.PORT || 3000;
 
+// var db = mongojs("my mlab connection string", ['testcollection']);
 
-
-
-app.get(express.static(path.join()));
-app.set('port', process.env.PORT || 8800);
-
-var server = app.listen(app.get('port'), function() {
-  console.log('listening on port ', server.address().port);
+//Get All Tasks
+app.get('/', function(req, res, next){
+    console.log("db");
+    // db.testcollection.find(function(err, tasks){
+    //     if(err){
+    //         res.send(err);
+    //     }
+    //     res.json(tasks);
+    // });
 });
 
+app.listen(port, () => {
+    console.log(`listening on port ${port} ...... `);
+});
