@@ -1,5 +1,5 @@
   {
-     "name": "Hello World",
+     "name": "Jira Addon",
      "description": "Atlassian Connect app",
      "key": "com.example.myapp",
      "baseUrl": "https://91900936978c.ngrok.io",
@@ -14,7 +14,7 @@
      "modules": {
          "generalPages": [
              {
-                 "url": "/helloworld.html",
+                 "url": "/addon.html",
                  "key": "hello-world",
                  "location": "system.top.navigation.bar",
                  "name": {

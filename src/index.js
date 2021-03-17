@@ -93,10 +93,6 @@ class Todo_Class {
                 myTodoList.done_undone(selectedId);
             })
             
-            // liElement.addEventListener("click", function(e) {
-            //     const selectedId = e.target.getAttribute("data-id");
-            //     myTodoList.done_undone(selectedId);
-            // })
 
             if (object_item.isDone) {
                 liElement.classList.add("checked");
