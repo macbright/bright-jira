@@ -22,6 +22,8 @@ module.exports = {
   },
 	devServer: {
    disableHostCheck: true,
+	
+	 port: process.env.PORT || 3000,
   },
 	// plugins: [new HtmlWebpackPlugin({
 	// 		template: './index.html'
