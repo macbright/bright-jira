@@ -2,7 +2,7 @@
      "name": "Jira Addon",
      "description": "Atlassian Connect app",
      "key": "com.example.myapp",
-     "baseUrl": "https://91900936978c.ngrok.io",
+     "baseUrl": "https://jira-clound.herokuapp.com/",
      "vendor": {
          "name": "Example, Inc.",
          "url": "http://example.com"
