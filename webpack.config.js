@@ -14,7 +14,8 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
 	devServer: {
-	 host: 'jira-cloud.herokuapp.com',
+	 compress: true,
+   disableHostCheck: true, 
 	 port:  port
   },
 	// plugins: [new HtmlWebpackPlugin({
