@@ -1,7 +1,7 @@
 const path = require('path');
 // const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-
+const port = process.env.PORT || 3000;
 
 module.exports = {
 	mode: 'production',
@@ -11,7 +11,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
 	devServer: {
-	 port: process.env.PORT || 8000,
+	 port: port,
   },
 	// plugins: [new HtmlWebpackPlugin({
 	// 		template: './index.html'
