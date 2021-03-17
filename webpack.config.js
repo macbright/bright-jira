@@ -9,9 +9,8 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
 	devServer: {
-    host:'https:://0.0.0.0',
+    host:'jira-clound.herokuapp.com',
     port: 5000,
-		publicPath: '/dist'
   },
 	// plugins: [new HtmlWebpackPlugin({
 	// 		template: './index.html'
