@@ -14,7 +14,7 @@
      "modules": {
          "generalPages": [
              {
-                 "url": "/addon.html",
+                 "url": "./dist/addon.html",
                  "key": "hello-world",
                  "location": "system.top.navigation.bar",
                  "name": {
