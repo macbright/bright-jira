@@ -8,10 +8,7 @@ module.exports = {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
   },
-	// devServer: {
-  //   host:'jira-clound.herokuapp.com',
-  //   port: 5000,
-  // },
+	
 	// plugins: [new HtmlWebpackPlugin({
 	// 		template: './index.html'
 	// 	})],
