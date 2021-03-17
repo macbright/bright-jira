@@ -8,7 +8,7 @@
 		"heroku-prebuild": "npm install --dev",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
-    "start": "./node_modules/webpack/bin/webpack.js  --progress && node server.js"
+    "start": "./node_modules/webpack/bin/webpack.js  --progress "
   },
   "repository": {
     "type": "git",
