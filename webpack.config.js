@@ -15,7 +15,7 @@ module.exports = {
   },
 	devServer: {
 	 compress: true,
-   disableHostCheck: true, 
+   public: jira-cloud.herokuapp.com,
 	 port:  port
   },
 	// plugins: [new HtmlWebpackPlugin({
