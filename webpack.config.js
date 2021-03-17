@@ -10,7 +10,8 @@ module.exports = {
   },
 	devServer: {
     host:'0.0.0.0',
-    port: 5000
+    port: 5000,
+		publicPath: '/dist'
   },
 	// plugins: [new HtmlWebpackPlugin({
 	// 		template: './index.html'
