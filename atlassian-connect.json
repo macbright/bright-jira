@@ -2,7 +2,7 @@
      "name": "Jira Addon",
      "description": "Atlassian Connect app",
      "key": "com.example.myapp",
-     "baseUrl": "https://jira-clound.herokuapp.com/",
+     "baseUrl": "https://jira-clound.herokuapp.com",
      "vendor": {
          "name": "Example, Inc.",
          "url": "http://example.com"
@@ -14,7 +14,7 @@
      "modules": {
          "generalPages": [
              {
-                 "url": "./addon.html",
+                 "url": "/addon.html",
                  "key": "hello-world",
                  "location": "system.top.navigation.bar",
                  "name": {
