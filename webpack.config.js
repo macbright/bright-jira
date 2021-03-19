@@ -16,7 +16,7 @@ module.exports = {
 	devServer: {
 	 compress: true,
 	 port:  port,
-	 host: '46.53.251.13'
+	 disableHostCheck: true,
 
 	//   allowedHosts: [
   //     '.amazonaws.com',  'jira-cloud.herokuapp.com', '.herokuapp.com',
