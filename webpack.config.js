@@ -16,10 +16,11 @@ module.exports = {
 	devServer: {
 	 compress: true,
 	 port:  port,
-	  allowedHosts: [
-      '.amazonaws.com',  'jira-cloud.herokuapp.com', '.herokuapp.com',
+	 host: '0.0.0.0'
+	//   allowedHosts: [
+  //     '.amazonaws.com',  'jira-cloud.herokuapp.com', '.herokuapp.com',
 			
-  ],
+  // ],
 	 
   },
 	// plugins: [new HtmlWebpackPlugin({
