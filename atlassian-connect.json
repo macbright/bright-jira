@@ -1,5 +1,5 @@
   {
-     "name": "Jira Addon",
+     "name": "Jira-Cloud Addon",
      "description": "Atlassian Connect app",
      "key": "com.example.myapp",
      "baseUrl": "https://jira-clound.herokuapp.com",
@@ -15,7 +15,7 @@
          "generalPages": [
              {
                  "url": "/addon.html",
-                 "key": "hello-world",
+                 "key": "jira-cloud",
                  "location": "system.top.navigation.bar",
                  "name": {
                      "value": "Addon"
